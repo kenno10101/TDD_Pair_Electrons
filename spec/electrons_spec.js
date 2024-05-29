@@ -12,4 +12,8 @@ describe('Electrons around the cores', function () {
 	it('should return 4', function () {
 		expect(game.count([2, 2, 3, 3, 1])).toEqual(4);
 	})
+	// [3,5,3,5,4,2] => 12
+	it('should return 12', function () {
+		expect(game.count([3, 5, 3, 5, 4, 2])).toEqual(12);
+	})
 });
